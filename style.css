@@ -1,0 +1,318 @@
+
+.parallax {
+    
+    background-image: url("Imagenes/Diseño\ sin\ título\ \(34\).png");
+  
+    
+    min-height: 500px; 
+  
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.titulo{
+    padding-top: 130px;
+}
+
+
+.titulo1{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo2{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.nosotros{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.texto-nosotros{
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 70px;
+ 
+}
+
+.contacto{
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista{
+    padding-top: 10px;
+}
+
+.imagen-casa{
+    padding-top: 20px;
+}
+
+/*Transiciones*/
+
+.imagen-casa:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.imagenshowroom:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+
+
+.imagen-fachada:hover{
+transform: scale(1.1);
+transition: all 1s;
+}    
+
+
+
+
+
+.Showroom{
+    
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.imagenshowroom{
+    padding-top: 20px;
+    
+}
+
+
+
+.showroom-texto{
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 30px;
+    margin-left: 40px;
+}
+
+
+
+h3{
+    text-align: center;
+    margin-top: 20px;
+    
+
+}
+
+.marcas{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.texto-vestuario{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+
+/*.fotos{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}*/
+
+
+/*footer + form*/
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    
+    
+}
+
+.form1{
+    color: cornsilk;
+    align-items: center;
+    line-height: 30px;
+}
+
+form{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+button{
+    background-color: black;
+    color: cornsilk;
+    margin-top: 10px;
+}
+
+textarea{
+    height: 30px;
+}
+
+.redes{
+    color: cornsilk;
+    
+    
+}
+
+
+.logo{
+    padding-top: 30px;
+}
+
+.facebook{
+    color: cornsilk;
+    font-size: 20px;
+    margin: 10px;
+    line-height: 70px;
+    
+}
+
+
+@media screen and (max-width: 400px){
+
+    .titulo1{
+        font-size: 40px;
+    }   
+
+
+    .titulo2{
+        font-size: 15px;
+    }
+    
+  
+    .nosotros{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Showroom{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .marcas{
+        font-size: 10px;
+        
+    
+    }
+
+    
+
+    .footer{
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+    }
+
+    
+
+    .texto-nosotros{
+        font-size: 15px;
+    }
+
+    .texto-vestuario{
+        font-size: 15px;
+    }
+
+    .showroom-texto{
+        font-size: 15px;
+    }
+
+    .mapa{
+        width: 50%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    
+
+    .imagen-fachada{
+        display: none;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    
+} 
+
+
+@media screen and (min-width: 401px) and (max-width: 960px){
+
+    .imagen-fachada{
+        display: none;
+    }
+
+    
+
+    .contacto{
+        display: flex;
+        align-content: center;
+    }
+
+    .footer{
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        }
+
+    .nosotros{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Showroom{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .marcas{
+        font-size: 15px;
+        
+    
+    }
+
+    .logo{
+        display: none;
+    }
+
+
+}
